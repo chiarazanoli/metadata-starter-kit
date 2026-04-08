@@ -1,13 +1,38 @@
 devices:
-  - device_id: "DEV-001"
+  - device_id: "DEV-001.1"
     device_name: "AMPBpro"
     manufacturer: "SOMNOmedics, Randersacker, DE"
     model: "AMPBpro"
     device_type: "blood pressure monitor"
     measurement_modalities:
       - "blood pressure"
+    placement: ###
     calibration:
       calibrated: true
+
+  - device_id: "DEV-001.2"
+    device_name: "3 EGC sensor (Holter)"
+    manufacturer: ""SOMNOmedics, Randersacker, DE""
+    model: "AMPBpro"
+    device_type: "EGC electrodes" #
+    measurement_modalities:
+      - "heart rate in bpm unit"
+    placement: "chest and ribs"
+    calibration:
+      calibrated: ###
+      certification: ###
+
+  - device_id: "DEV-001.3"
+    device_name: "3 EGC sensor (Holter)"
+    manufacturer: ""SOMNOmedics, Randersacker, DE""
+    model: "AMPBpro"
+    device_type: "EGC electrodes" #
+    measurement_modalities:
+      - "ms of RR-Interval "
+    placement: "chest and ribs"
+    calibration:
+      calibrated: ###
+      certification: ###
 
   - device_id: "DEV-002"
     device_name: "Auto Non-Contact Tonometer NT-2000"
@@ -16,6 +41,7 @@ devices:
     device_type: "tonometer"
     measurement_modalities:
       - "intra-ocular pressure"
+    placement: ###
 
   - device_id: "DEV-003"
     device_name: "e-Celsius"
@@ -24,6 +50,7 @@ devices:
     device_type: "ingestible pill"
     measurement_modalities:
       - "core body temperature"
+    placement: "stomach"
     calibration:
       calibrated: true
       certification: "CE"
@@ -35,6 +62,7 @@ devices:
     device_type: "continuous glucose monitor"
     measurement_modalities:
       - "interstitial glucose"
+    placement: "skin of the back of the upper arm"
 
   - device_id: "DEV-005"
     device_name: "iButton"
@@ -43,6 +71,9 @@ devices:
     device_type: "peripheral body temperature sensor"
     measurement_modalities:
       - "peripheral body temperature"
+    placement: 
+      - proximal: "neck"
+      - distal: "ankle"
 
   - device_id: "DEV-006"
     device_name: "Metropsis Visual Function Assessment"
@@ -51,6 +82,7 @@ devices:
     device_type: "psychophysical measurement system"
     measurement_modalities:
       - "visual function"
+    placement: "presented on a screen"
 
   - device_id: "DEV-007"
     device_name: "NVBL"
@@ -60,6 +92,10 @@ devices:
     measurement_modalities:
       - "pupil diameter"
       - "pupillary light reflex"
+    placement: "dominant eye"
+    calibration:
+          calibrated: true
+          certification: ###
 
   - device_id: "DEV-008"
     device_name: "OCT2000"
@@ -70,6 +106,7 @@ devices:
       - "corneal thickness"
       - "fundus photography"
       - "ocular physiology"
+    placement: ###
     calibration:
       calibrated: true
       certification: "CE"
@@ -81,28 +118,7 @@ devices:
     device_type: "psychomotor vigilance test"
     measurement_modalities:
       - "alertness"
-
-  - device_id: "DEV-010"
-    device_name: " "
-    manufacturer: " "
-    model: " "
-    device_type: "ECG" #
-    measurement_modalities:
-      - "heart rate in bpm unit"
-    calibration:
-      calibrated: ###
-      certification: ###
-
-  - device_id: "DEV-011"
-    device_name: " "
-    manufacturer: " "
-    model: " "
-    device_type: " "
-    measurement_modalities:
-      - "RR Interval"
-    calibration:
-      calibrated: ###
-      certification: ###
+    placement: "non-dominant hand"
 
 documentation_links:
       - "doi.org/10.1371/journal.pone.0300405"
