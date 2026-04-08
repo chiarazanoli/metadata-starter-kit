@@ -68,7 +68,7 @@ file_structure:
       device_id: "DEV-005"
 
 tabular_variables:
-  - table_name: "participant_id_T_prox"
+  - table_name: "participant-id_T_prox"
     file_pattern: "data/processed/*.csv" ###
     description: "iButton peripheral temperature measurements"
     key_columns:
@@ -166,7 +166,7 @@ file_structure:
       device_id: "DEV-010"
 
 tabular_variables:
-  - table_name: "participant_id_HR"
+  - table_name: "participant-id_HR"
     file_pattern: "data/processed/*.csv" ###
     description: "Kardio\PR_Kurve table"
     key_columns:
@@ -209,7 +209,7 @@ file_structure:
       device_id: "DEV-011"
 
 tabular_variables:
-  - table_name: "participant_id_HR"
+  - table_name: "participant-id_RRI"
     file_pattern: "data/processed/*.csv" ###
     description: "Kardio\RR_Abstand"
     key_columns:
