@@ -1,4 +1,4 @@
-** #Dataset-level metadata descriptor **
+# Dataset-level metadata descriptor
 
 Explains `dataset.yaml`.
 
