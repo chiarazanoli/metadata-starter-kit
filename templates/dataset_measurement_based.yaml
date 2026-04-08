@@ -1,1 +1,243 @@
+dataset_id: "DATASET-003"
+dataset_name: "BodyCap"
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Core body temperature (CBT) measurements with BodyCap ingestible pills. 3 pills per participant 
+  in each file, 1 file per participant.   
+version: "1.0.0"
+release_date: " " ###
 
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/bodycap/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+      device_id: "DEV-003"
+
+tabular_variables:
+  - table_name: "participant-id_bodycap_startdate"
+    file_pattern: "data/processed/*.csv" ###
+    description: "CBT measurements with BodyCap ingestible pills"
+    key_columns: "for each pill:"
+      - "Date(dd/mm/yyyy)"
+      - "Hour"
+      - "Temperature (°C)"
+    variables:
+      - name: "Date(dd/mm/yyyy)"
+        type: "string"
+        format: "DD/MM/YYYY" 
+        required: true
+        description: "local timestamp - date"
+      - name: "Hour"
+        type: "string"
+        format: "HH:MM:SS,ff"
+        required: true
+        description: "local timestamp - time"
+      - name: "Temperature (°C)"
+        type: "string/df.to_numeric"
+        required: true
+        description: "temperature in Celsius degrees"
+
+notes: the three pills in each file have a different number of sample measurements.
+
+
+dataset_id: "DATASET-005.1"
+dataset_name: "T_prox"
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Proximal peripheral body temperature measurement of each participants, 2 files per participant. 
+  The device was switched in-between measurements due to storage fullness. Sample rate: 30s.  
+version: "1.0.0"
+release_date: " " ###
+
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/T_prox/"
+      description: "Raw device files"
+      file_pattern: "*.xlsx"
+      modality: " " ###
+      device_id: "DEV-005"
+
+tabular_variables:
+  - table_name: "participant_id_T_prox"
+    file_pattern: "data/processed/*.csv" ###
+    description: "iButton peripheral temperature measurements"
+    key_columns:
+      - "date"
+      - "time"
+      - "value"
+    variables:
+      - name: "date"
+        type: "string"
+        format: "YYYY-MM-DD" 
+        required: true
+        description: "local timestamp - date"
+      - name: "time"
+        type: "string"
+        format: "HH:MM:SS"
+        required: true
+        description: "local timestamp - time"
+      - name: "value"
+        type: "string/df.to_numeric"
+        required: true
+        description: "temperature in Celsius degrees"
+
+notes: null
+
+
+dataset_id: "DATASET-005.2"
+dataset_name: "T_prox"
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Distal peripheral body temperature measurement of each participants, 2 files per participant. 
+  The device was switched in-between measurements due to storage fullness. Sample rate: 30s.  
+version: "1.0.0"
+release_date: " " ###
+
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/T_dist/"
+      description: "Raw device files"
+      file_pattern: "*.xlsx"
+      modality: " " ###
+      device_id: "DEV-005"
+
+tabular_variables:
+  - table_name: "participant-id_T_dist"
+    file_pattern: "data/processed/*.csv" ##
+    description: "iButton peripheral temperature measurement"
+    key_columns:
+      - "date"
+      - "time"
+      - "value"
+    variables:
+      - name: "date"
+        type: "string"
+        format: "YYYY-MM-DD" 
+        required: true
+        description: "local timestamp - date"
+      - name: "time"
+        type: "string"
+        format: "HH:MM:SS"
+        required: true
+        description: "local timestamp - time"
+      - name: "value"
+        type: "string/df.to_numeric"
+        required: true
+        description: "temperature in Celsius degrees"
+
+notes: null
+
+
+
+
+dataset_id: "DATASET-010"
+dataset_name: "Heart Rate"
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Heart rate measurements of each participants, 2 files per participant. The device was switched in-between 
+  measurements due to storage fullness. 
+version: "1.0.0"
+release_date: " " ###
+
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/heart_rate/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+      device_id: "DEV-010"
+
+tabular_variables:
+  - table_name: "participant_id_HR"
+    file_pattern: "data/processed/*.csv" ###
+    description: "Kardio\PR_Kurve table"
+    key_columns:
+      - "datetime"
+      - "bpm"
+    variables:
+      - name: "datetime"
+        type: "string/df.to_datetime"
+        format: "DD.MM.YYYY HH:MM:SS,fff"
+        required: true
+        description: ""Local timestamp"
+      - name: "bpm"
+        type: "string/df.to_numeric"
+        required: true
+        description: "heart rate in bpm unit"
+
+notes: only the second device for each participants has a measurement rate of 30s.
+
+
+
+dataset_id: "DATASET-011"
+dataset_name: "RR-Interval"
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  RR-Interval measurements of each participants, 2 files per participant. The device was switched in-between 
+  measurements due to storage fullness. 
+version: "1.0.0"
+release_date: " " ###
+
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview. ###
+  files:
+    - path: "data/raw/RR-interval/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+      device_id: "DEV-011"
+
+tabular_variables:
+  - table_name: "participant_id_HR"
+    file_pattern: "data/processed/*.csv" ###
+    description: "Kardio\RR_Abstand"
+    key_columns:
+      - "datetime"
+      - "value"
+    variables:
+      - name: "datetime"
+        type: "string/df.to_datetime"
+        format: "DD.MM.YYYY HH:MM:SS,fff"
+        required: true
+        description: ""Local timestamp"
+      - name: "ms"
+        type: "string/df.to_numeric"
+        required: true
+        description: "interval lenght in ms"
+
+notes: only the second device for each participants has a measurement rate of 30s and a state column with Wake/Sleep string values. 
+
+
+associated_publications:
+  - doi: "10.1371/journal.pone.0300405"
+    citation: "Heinrichs and Spitschan, 2025"
+
+data_access:
+  access_level: "open access"
+  access_details: >
+    Upon conclusion of the primary analyses, the data will be made available under the 
+    Creative Commons licence (CC-BY) with no reservations in the supplementary material 
+    of the research publication and/or on a public repository (e.g., FigShare). 
+    Pseudonymised research data will be transferred once data collection is completed and 
+    conclusions of the main hypotheses have been submitted.
