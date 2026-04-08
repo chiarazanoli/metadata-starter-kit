@@ -27,9 +27,6 @@ Semantic versioning recommended (e.g., `1.0.0`).
 ### `release_date`
 `YYYY-MM-DD`.
 
-### `associated_publications`
-List of DOIs and citations.
-
 ---
 
 ## File structure
@@ -57,7 +54,10 @@ Each table entry defines:
 - `format` (optional)
 - `required` (boolean)
 
----
-
 ## Notes
 Use this for caveats or additional context.
+
+---
+
+### `associated_publications`
+List of DOIs and citations.
