@@ -1,39 +1,100 @@
 # Template: Study-level metadata
 # Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/study.md
 
-study_id: "PROJECT-001-STUDY"
-study_title: "Study Title"
-project_id: "PROJECT-001"
+study_id: "PROJECT-001-STUDY" ###
+study_title: "Study Title"    ###
+project_id: "CiViBe Project"  
 study_abstract: >
-  Short summary of study purpose and approach.
+  In this study, we disentangle circadian and homeostatic effects on variations of retinal
+  function. We examine the earliest stages of image-forming (temporal contrast sensitivity
+  of the post-receptoral channels) and non-image forming visual functions (pupillary
+  light response) by employing a short forced-desynchrony multiple-naps protocol lasting
+  40 hours. Participants (n = 12, 50% female) will stay in a controlled time-isolating environment
+  under dim-light conditions and adhere to an ultra-short sleep-wake cycle, alternating
+  between 2h30m of wake time in dim light and hour of sleep in no light. During
+  eleven intervals of wakefulness, participants will undergo psychophysical and pupillometric
+  assessments with silent-substitution stimuli. We hypothesize that the sensitivity of retinal
+  mechanisms undergoes circadian variations. This hypothesis will be investigated by
+  separately determining psychophysical contrast thresholds to silent-substitution stimuli
+  targeting the post-receptoral (consistency) pathways (isoluminant red-green, L–M; isoluminant
+  blue-yellow, S; luminance, L+M+S). We will furthermore measure the pupillary
+  light response to peripheral stimuli (annulus 10°–30°) in comparison to the response to
+  stimuli isolating or including melanopsin stimulation. All stimuli will be delivered at constant
+  retinal irradiance using a Maxwellian view system or artificially restricting pupil size.
+  Additionally, we will quantify and report effects of our test stimuli on the circadian system
+  by comparing the dim light melatonin onset (DLMO) timing during two supplementary
+  evening sessions, comparing dim-light conditions to such with experimental light exposure.
+  Our work informs the fundamental biological mechanisms underlying the influence
+  of light on the human circadian system.
 study_type: "experimental"
 
 design:
   design_keywords:
-    - "keyword1"
-    - "keyword2"
-  primary_outcomes:
-    - "outcome1"
-  secondary_outcomes:
-    - "outcome2"
-
+    - "within-participant design"
+    - "forced-desynchrony protocol"
+  primary_outcomes:  #
+    - "disentangling circadian and homeostatic process"
+    - "image-forming visual function"
+    - "non-image-forming visual function"
+  secondary_outcomes:  #
+    - "pupillometric assessment of photoreceptor mechanisms"
+    - "psychophysical assessment of photoreceptor mechanisms"
+    - "circadian phase measurements"
+    - "homeostatic processes"
+    - "ocular structure and function"
+    
 population:
-  target_population: "healthy adults"
+  target_population: "healthy, aged 18–35 years, 50% female"
   inclusion_criteria:
-    - "criterion1"
+    - "18 ≥ years of age ≤ 35"
+    - "good physical health"
+    - "good mental health"
+    - "good ocular health"
+    - "normal or corrected-to-normal vision"
+    - "normal colour vision"
+    - "high sleep and circadian regularity"
+    - "no hormonal disorders, women with or without hormonal contraception"
+    - "women in their mid-follicular phase of the menstrual cycle"
   exclusion_criteria:
-    - "criterion2"
-  planned_sample_size: 20
-  actual_sample_size: 18
+    - "BMI < 18.5 or > 25"
+    - "substance abuse with AUDIT score > 7"
+    - "depressive symptoms"
+    - "history of anxiety disorder"
+    - "extreme chronotype with MCTQ <2:00 or >5:30"
+    - "any use of medication except for hormonal contraception"
+    - "habitual smoking"
+    - "diagnosis of epilepsy"
+    - "shift work in the past 3 months"
+    - "transmeridial travel of more than 2 time zones in the past 3 months"
+    - "pregnancy"
+    - "endocrine alterations"
+    - "any drug use"
+    - "alcohol use"
+  planned_sample_size: 12
+  actual_sample_size: 12    ###
 
-protocol:
-  version: "1.0"
-  registration_url: "https://osf.io/example"
-  protocol_document: "docs/protocol.pdf"
+protocol:  
+  version: "1.0"  ###
+  registration_url: "https://osf.io/example"  ###
+  protocol_document: "doi.org/10.1371/journal.pone.0300405" (or "docs/protocol.pdf"??)  ### 
   summary: >
-    One- or two-paragraph description.
+    Participants follow a within-participant study spanning several weeks. Each participant will take 
+    part in one evening session a week after starting a circadian stabilisation phase, then come 
+    in for another evening session that is followed by an adaptation night and the subsequent 
+    completions of the forced-desynchrony protocol, which encompasses 11 measurement blocks and 
+    spans 40 hours. After it (Post-FD) another stabilisation periods of 1 week occur. 
 
-sessions:
+    The 40 hours FD protocol consist of repeating measurement blocks interspersed with sleep opportunities 
+    to prevent sleep deprivation, thus systematically shortening a typical sleep-wake cycle from 
+    approximately 24 hours to 3h45m: 2 h 30 min wake (eyes open, <10 lux) followed by 1 h 15 min 
+    sleep (eyes closed, 0 lux). During one period of 24 hours, participants will thus complete 
+    6.4 sleepwake cycles. Within each wake period, participants complete repeated 
+    assessments including surveys, psychophysics, pupillometry, OCT, intraocular pressure, 
+    psychomotor vigilance, and enrichment tasks. Standardized meals are paired with saliva and 
+    blood pressure collection. Continuous measurements—core body temperature (CBT), continuous 
+    glucose monitoring (CGM), and ECG—are recorded throughout.
+
+sessions:  ###
   - session_id: "baseline"
     description: "Baseline week."
   - session_id: "session2"
@@ -41,10 +102,34 @@ sessions:
 
 data_capture:
   instruments:
-    - name: "Light sensor"
-      device_id: "DEV-001"
-    - name: "Continuous glucose monitor"
+    - name: "AMPBpro"
+      monitoring/assessment of: "blood pressure"
+      device_id: "DEV-001" ###
+    - name: "Auto Non-Contact Tonometer NT-2000"
+      monitoring/assessment of: "intra-ocular pressure"
       device_id: "DEV-002"
+    - name: "e-Celsius BodyCap ingestible pill"
+      monitoring/assessment of: "core body temperature"
+      device_id: "DEV-003" ###
+    - name: "FreeStyle Libre 3"
+      monitoring/assessment of: "continuous glucose monitoring"
+      device_id: "DEV-004" ###
+    - name: "iButton"
+      monitoring/assessment of: "peripheral body temperature"
+      device_id: "DEV-005" ###
+    - name: "Metropsis"
+      monitoring/assessment of: "psychophysical visual function assessment"
+      device_id: "DEV-006" ###
+    - name: "NVBL"
+      monitoring/assessment of: "visual stimulation and pupillometry"
+      device_id: "DEV-007" ###
+    - name: "OCT2000"
+      monitoring/assessment of: "ocular physiology measurements, incl. corneal thickness and fundus photographs"
+      device_id: "DEV-008" ###
+    - name: "PVT-192"
+      monitoring/assessment of: "alertness" 
+      device_id: "DEV-009" ###
+     
 
 notes: >
   Additional information about the study.
