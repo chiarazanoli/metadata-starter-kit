@@ -1,43 +1,61 @@
 # Template: Project-level metadata
 # Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/project.md
 
-project_id: "PROJECT-001"
-title: "Example Project Title"
-short_title: "Short Title"
-principal_investigator:
-  name: "Firstname Lastname"
-  email: "pi@example.org"
-  affiliation: "Institute / Lab"
-contributors:
+project_id: "PROJECT-001"  ###
+title: "Example Project Title" ###
+short_title: "Short Title" ###
+
+principal_investigators:
+  - name: "Manuel Spitschan"
+    email: "manuel.spitschan@tuebingen.mpg.de"
+    institute of affiliation: "Max Planck Institute for Biological Cybernetics / Technical University of Munich"
+    research group: "Translational Sensory & Circadian Neuroscience / Chronobiology & Health"
+  - name: "Hannah Sophie Heinrichs"
+    email: " " ###
+    institute of affiliation: "Max Planck Institute for Biological Cybernetics / Technical University of Munich"
+    research group: "Translational Sensory & Circadian Neuroscience / Chronobiology & Health"
+  - name: "Salma Thalji"
+    email: "salma.thalji@tum.de"
+    institute of affiliation: "Max Planck Institute for Biological Cybernetics / Technical University of Munich"
+    research group: "Translational Sensory & Circadian Neuroscience / Chronobiology & Health"
+contributors: ###
   - name: "Firstname Lastname"
     role: "data curation"
     orcid: "0000-0000-0000-0000"
     email: "person@example.org"
     affiliation: "Institute / Lab"
 lab: "tscnlab"
-funding:
+funding:  ###
   - funder_name: "Funding Agency"
     grant_id: "1234-5678"
+    
 project_description: >
   One-paragraph description understandable by someone outside the project.
 keywords:
   - "keyword1"
   - "keyword2"
-license: "CC BY 4.0"
-repository_url: "https://github.com/tscnlab/example"
-data_access:
-  access_level: "restricted"
+license: "CC BY 4.0"  ###
+repository_url: "https://github.com/tscnlab/example" ###
+data_access: ###
+  access_level: "open access"
   access_details: >
-    Brief explanation of access.
+    Upon conclusion of the primary analyses, the data will be made available under the Creative 
+    Commons licence (CC-BY) with no reservations in the supplementary material of the research 
+    publication and/or on a public repository (e.g., FigShare). Pseudonymised research data will be
+    transferred once data collection is completed and conclusions of the main hypotheses have
+    been submitted.
+    
 ethics:
   approval_required: true
-  approval_id: "ABC/123"
-  approval_body: "Local Ethics Committee"
+  approval_id: "2023-369-S-SB"  ###
+  approval_body: "Medical Ethics Committee of the Technical University of Munich"
+  
 timeline:
-  start_date: "2025-01-01"
-  end_date: "2025-12-31"
-  status: "ongoing"
+  start_date: " "  ###
+  end_date: " "  ###
+  status: "concluded" ###
+  
 links:
-  protocol: "https://osf.io/abcd"
-  preregistration: "https://osf.io/efgh"
-  project_website: "https://www.visualdiet.org"
+  protocol: "doi.org/10.1371/journal.pone.0300405"
+  preregistration: "https://osf.io/efgh"  ###
+  project_website: "https://www.visualdiet.org"  ###
