@@ -104,7 +104,13 @@ data_capture:
   instruments:
     - name: "AMPBpro"
       monitoring/assessment of: "blood pressure"
-      device_id: "DEV-001" ###
+      device_id: "DEV-001.1" ###
+    - name: "3 EGC sensor (Holter)"
+      monitoring/assessment of: "heart rate"
+      device_id: "DEV-001.2" ###
+    - name: "3 EGC sensor (Holter)"
+      monitoring/assessment of: "RR-interval"
+      device_id: "DEV-001.3" ###
     - name: "Auto Non-Contact Tonometer NT-2000"
       monitoring/assessment of: "intra-ocular pressure"
       device_id: "DEV-002"
