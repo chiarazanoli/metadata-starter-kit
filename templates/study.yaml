@@ -71,7 +71,7 @@ population:
     - "any drug use"
     - "alcohol use"
   planned_sample_size: 12
-  actual_sample_size: 12    ###
+  actual_sample_size: 12    #
 
 protocol:  
   version: "1.0"  ###
