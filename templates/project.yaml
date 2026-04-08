@@ -30,8 +30,8 @@ funding:  ###
     grant_id: "1234-5678"
     
 project_description: >
-  One-paragraph description understandable by someone outside the project.
-keywords:
+  One-paragraph description understandable by someone outside the project. ###
+keywords: ###
   - "keyword1"
   - "keyword2"
 license: "CC BY 4.0"  ###
