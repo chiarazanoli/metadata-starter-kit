@@ -2,50 +2,375 @@
 # Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/dataset.md
 
 dataset_id: "DATASET-001"
-dataset_name: "Dataset Name"
-study_id: "PROJECT-001-STUDY"
-project_id: "PROJECT-001"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
 dataset_description: >
-  Overview of dataset contents.
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
 version: "1.0.0"
-release_date: "2025-11-20"
-
-associated_publications:
-  - doi: "10.1234/example"
-    citation: "Lastname et al. 2025"
-
-data_access:
-  access_level: "restricted"
-  access_details: >
-    Describe the access rules.
-
+release_date: " " ###
 file_structure:
   base_path: "data/"
   description: >
-    Brief directory structure overview.
+    Brief directory structure overview.  ###
   files:
-    - path: "data/raw/light/"
+    - path: "data/raw/participant-id/"
       description: "Raw device files"
       file_pattern: "*.csv"
-      modality: "light"
-      device_id: "DEV-001"
+      modality: " " ###
 
-tabular_variables:
-  - table_name: "example_table"
-    file_pattern: "data/processed/*.csv"
-    description: "Example table."
-    key_columns:
-      - "participant_id"
-      - "timestamp"
+dataset_id: "DATASET-002"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-003"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-004"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-005"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-006"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-007"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-008"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-009"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-010"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-011"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: " " ###
+
+dataset_id: "DATASET-012"
+dataset_name: "participant-id" ###
+study_id: "PROJECT-001-STUDY" ###
+project_id: "CiViBe Project"
+dataset_description: >
+  Multiple measurements files: CBT with BodyCap ingestible pill (1 .csv file), distal 
+  (2 .xlsx files) and proximal (2 .xlsx files) peripheral body temperature with iButtons, 
+  heart rate values in bpm unit (2 .csv files) , RR-Intervals (2 .csv files), ... ### others to be filled with  
+version: "1.0.0"
+release_date: " " ###
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.  ###
+  files:
+    - path: "data/raw/participant-id/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+
+
+measurement_table:
+  - device_id: "DEV-003"
+  - table_name: "participant-id_bodycap_startdate"
+    file_pattern: "data/processed/*.csv" ###
+    description: "CBT measurements with BodyCap ingestible pills"
+    key_columns: "for each pill:"
+      - "Date(dd/mm/yyyy)"
+      - "Hour"
+      - "Temperature (°C)"
     variables:
-      - name: "participant_id"
+      - name: "Date(dd/mm/yyyy)"
         type: "string"
+        format: "DD/MM/YYYY" 
         required: true
-        description: "Matches participant.yaml"
-      - name: "timestamp"
-        type: "datetime"
-        format: "YYYY-MM-DD HH:MM:SS"
+        description: "local timestamp - date"
+      - name: "Hour"
+        type: "string"
+        format: "HH:MM:SS,ff"
         required: true
-        description: "Local timestamp"
+        description: "local timestamp - time"
+      - name: "Temperature (°C)"
+        type: "string/df.to_numeric"
+        required: true
+        description: "temperature in Celsius degrees"
+notes: the three pills in each file have a different number of sample measurements.
 
+measurement_table:
+  - device_id: "DEV-005"
+  - table_name: "participant-id_T_prox"
+    file_pattern: "data/processed/*.csv" ###
+    description: "iButton peripheral temperature measurements"
+    key_columns:
+      - "date"
+      - "time"
+      - "value"
+    variables:
+      - name: "date"
+        type: "string"
+        format: "YYYY-MM-DD" 
+        required: true
+        description: "local timestamp - date"
+      - name: "time"
+        type: "string"
+        format: "HH:MM:SS"
+        required: true
+        description: "local timestamp - time"
+      - name: "value"
+        type: "string/df.to_numeric"
+        required: true
+        description: "temperature in Celsius degrees"
 notes: null
+
+measurement_table:
+  - device_id: "DEV-005"
+  - table_name: "participant-id_T_dist"
+    file_pattern: "data/processed/*.csv" ##
+    description: "iButton peripheral temperature measurement"
+    key_columns:
+      - "date"
+      - "time"
+      - "value"
+    variables:
+      - name: "date"
+        type: "string"
+        format: "YYYY-MM-DD" 
+        required: true
+        description: "local timestamp - date"
+      - name: "time"
+        type: "string"
+        format: "HH:MM:SS"
+        required: true
+        description: "local timestamp - time"
+      - name: "value"
+        type: "string/df.to_numeric"
+        required: true
+        description: "temperature in Celsius degrees"
+notes: null
+
+measurement_table:
+  - device_id: "DEV-010"
+  - table_name: "participant-id_HR"
+    file_pattern: "data/processed/*.csv" ###
+    description: "Kardio\PR_Kurve table"
+    key_columns:
+      - "datetime"
+      - "bpm"
+    variables:
+      - name: "datetime"
+        type: "string/df.to_datetime"
+        format: "DD.MM.YYYY HH:MM:SS,fff"
+        required: true
+        description: ""Local timestamp"
+      - name: "bpm"
+        type: "string/df.to_numeric"
+        required: true
+        description: "heart rate in bpm unit"
+
+notes: only the second device for each participants has a measurement rate of 30s.
+
+measurement_table:
+  - device_id: "DEV-011"
+  - table_name: "participant-id_RRI"
+    file_pattern: "data/processed/*.csv" ###
+    description: "Kardio\RR_Abstand"
+    key_columns:
+      - "datetime"
+      - "value"
+    variables:
+      - name: "datetime"
+        type: "string/df.to_datetime"
+        format: "DD.MM.YYYY HH:MM:SS,fff"
+        required: true
+        description: ""Local timestamp"
+      - name: "ms"
+        type: "string/df.to_numeric"
+        required: true
+        description: "interval lenght in ms"
+
+notes: only the second device for each participants has a measurement rate of 30s and a state column with Wake/Sleep string values. 
+
+
+associated_publications:
+  - doi: "10.1371/journal.pone.0300405"
+    citation: "Heinrichs and Spitschan, 2025"
+
+data_access:
+  access_level: "open access"
+  access_details: >
+    Upon conclusion of the primary analyses, the data will be made available under the 
+    Creative Commons licence (CC-BY) with no reservations in the supplementary material 
+    of the research publication and/or on a public repository (e.g., FigShare). 
+    Pseudonymised research data will be transferred once data collection is completed and 
+    conclusions of the main hypotheses have been submitted.
