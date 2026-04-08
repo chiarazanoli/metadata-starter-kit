@@ -1,73 +1,87 @@
-measurement_devices:
-  - device_id: 1
-    device_name: AMPBpro
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 2
-    device_name: Auto Non-Contact Tonometer NT-2000
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 3
-    device_name: e-Celsius
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 4
-    device_name: FreeStyle Libre 3
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 5
-    device_name: iButton
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 6
-    device_name: Metropsis Visual Function Assessment
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 7
-    device_name: NVBL
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 8
-    device_name: OCT2000
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
-  - device_id: 9
-    device_name: PVT-192
-    manufacturer: Manufacturer Name
-    model: Model Number
-    device_type: Type
-    measurement_modalities: Modalities
-    calibration_details: Calibration details here
-    documentation_links: [Link1, Link2]
+devices:
+  - device_id: "DEV-001"
+    device_name: "AMPBpro"
+    manufacturer: "SOMNOmedics, Randersacker, DE"
+    model: "AMPBpro"
+    device_type: "blood pressure monitor"
+    measurement_modalities:
+      - "blood pressure"
+    calibration:
+      calibrated: true
+
+  - device_id: "DEV-002"
+    device_name: "Auto Non-Contact Tonometer NT-2000"
+    manufacturer: "NIDEK CO., LTD., JP"
+    model: "NT-2000"
+    device_type: "tonometer"
+    measurement_modalities:
+      - "intra-ocular pressure"
+
+  - device_id: "DEV-003"
+    device_name: "e-Celsius"
+    manufacturer: "BodyCap, Hérouville-Saint-Clair, FR"
+    model: "e-Celsius"
+    device_type: "ingestible pill"
+    measurement_modalities:
+      - "core body temperature"
+    calibration:
+      calibrated: true
+      certification: "CE"
+
+  - device_id: "DEV-004"
+    device_name: "FreeStyle Libre 3"
+    manufacturer: "Abbott Diabetes Care Ltd., UK"
+    model: "Libre 3"
+    device_type: "continuous glucose monitor"
+    measurement_modalities:
+      - "interstitial glucose"
+
+  - device_id: "DEV-005"
+    device_name: "iButton"
+    manufacturer: "Maxim/Dallas Semiconductor Corp., USA"
+    model: "iButton"
+    device_type: "peripheral body temperature sensor"
+    measurement_modalities:
+      - "peripheral body temperature"
+
+  - device_id: "DEV-006"
+    device_name: "Metropsis Visual Function Assessment"
+    manufacturer: "Cambridge Research Systems, Rochester, UK"
+    model: "Metropsis"
+    device_type: "psychophysical measurement system"
+    measurement_modalities:
+      - "visual function"
+
+  - device_id: "DEV-007"
+    device_name: "NVBL"
+    manufacturer: "Martial Geiser, CH"
+    model: "NVBL"
+    device_type: "visual stimulation and pupillometry system"
+    measurement_modalities:
+      - "pupil diameter"
+      - "pupillary light reflex"
+
+  - device_id: "DEV-008"
+    device_name: "OCT2000"
+    manufacturer: "TOPCON Corporation, JP"
+    model: "OCT2000"
+    device_type: "optical coherence tomography"
+    measurement_modalities:
+      - "corneal thickness"
+      - "fundus photography"
+      - "ocular physiology"
+    calibration:
+      calibrated: true
+      certification: "CE"
+
+  - device_id: "DEV-009"
+    device_name: "PVT-192"
+    manufacturer: "Ambulatory Monitoring Inc., USA"
+    model: "PVT-192"
+    device_type: "psychomotor vigilance test"
+    measurement_modalities:
+      - "alertness"
+
+documentation_links:
+      - "doi.org/10.1371/journal.pone.0300405"
+
