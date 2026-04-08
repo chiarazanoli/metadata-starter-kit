@@ -82,6 +82,28 @@ devices:
     measurement_modalities:
       - "alertness"
 
+  - device_id: "DEV-010"
+    device_name: " "
+    manufacturer: " "
+    model: " "
+    device_type: "ECG" #
+    measurement_modalities:
+      - "heart rate in bpm unit"
+    calibration:
+      calibrated: ###
+      certification: ###
+
+  - device_id: "DEV-011"
+    device_name: " "
+    manufacturer: " "
+    model: " "
+    device_type: " "
+    measurement_modalities:
+      - "RR Interval"
+    calibration:
+      calibrated: ###
+      certification: ###
+
 documentation_links:
       - "doi.org/10.1371/journal.pone.0300405"
 
