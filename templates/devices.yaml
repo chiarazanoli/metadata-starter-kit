@@ -17,14 +17,6 @@ devices:
     device_type: "EGC electrodes" 
     measurement_modalities:
       - "heart rate in bpm unit"
-    placement: "chest and ribs"
-
-  - device_id: "DEV-001.3"
-    device_name: "AMPBpro 3 EGC sensor (Holter)"
-    manufacturer: ""SOMNOmedics, Randersacker, DE""
-    model: "AMPBpro"
-    device_type: "EGC electrodes" 
-    measurement_modalities:
       - "ms of RR-Interval"
     placement: "chest and ribs"
 
