@@ -119,8 +119,8 @@ devices:
     model: "ActTrust2"
     device_type: "light-weigh actiwatch with a built-in accelerometer and light sensors"
     measurement_modalities:
-      - "activity and light exposure, in 1-min epochs"
-      - "light exposure, in photopic illuminance and UV irradiance"
+      - "activity in 1-min epochs"
+      - "light exposure in photopic illuminance and UV irradiance"
     placement: "non-dominant hand"
  
 
