@@ -1,4 +1,4 @@
-dataset_id: "DATASET-003"
+dataset_id: " " ###
 dataset_name: "BodyCap"
 study_id: "PROJECT-001-STUDY" ###
 project_id: "CiViBe Project"
@@ -46,7 +46,7 @@ tabular_variables:
 notes: the three pills in each file have a different number of sample measurements.
 
 
-dataset_id: "DATASET-005.1"
+dataset_id: " " ###
 dataset_name: "T_prox"
 study_id: "PROJECT-001-STUDY" ###
 project_id: "CiViBe Project"
@@ -94,7 +94,7 @@ tabular_variables:
 notes: null
 
 
-dataset_id: "DATASET-005.2"
+dataset_id: " " ###
 dataset_name: "T_prox"
 study_id: "PROJECT-001-STUDY" ###
 project_id: "CiViBe Project"
@@ -144,7 +144,7 @@ notes: null
 
 
 
-dataset_id: "DATASET-010"
+dataset_id: " " ###
 dataset_name: "Heart Rate"
 study_id: "PROJECT-001-STUDY" ###
 project_id: "CiViBe Project"
@@ -163,7 +163,7 @@ file_structure:
       description: "Raw device files"
       file_pattern: "*.csv"
       modality: " " ###
-      device_id: "DEV-010"
+      device_id: "DEV-001.2"
 
 tabular_variables:
   - table_name: "participant-id_HR"
@@ -187,7 +187,7 @@ notes: only the second device for each participants has a measurement rate of 30
 
 
 
-dataset_id: "DATASET-011"
+dataset_id: " " ###
 dataset_name: "RR-Interval"
 study_id: "PROJECT-001-STUDY" ###
 project_id: "CiViBe Project"
@@ -206,7 +206,7 @@ file_structure:
       description: "Raw device files"
       file_pattern: "*.csv"
       modality: " " ###
-      device_id: "DEV-011"
+      device_id: "DEV-001.2"
 
 tabular_variables:
   - table_name: "participant-id_RRI"
