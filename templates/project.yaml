@@ -11,7 +11,7 @@ principal_investigators:
     institute of affiliation: "Max Planck Institute for Biological Cybernetics / Technical University of Munich"
     research group: "Translational Sensory & Circadian Neuroscience / Chronobiology & Health"
   - name: "Hannah Sophie Heinrichs"
-    email: " " ###
+    email: "hannah.heinrichs@tum.de" #
     institute of affiliation: "Max Planck Institute for Biological Cybernetics / Technical University of Munich"
     research group: "Translational Sensory & Circadian Neuroscience / Chronobiology & Health"
   - name: "Salma Thalji"
@@ -35,8 +35,8 @@ keywords: ###
   - "keyword1"
   - "keyword2"
 license: "CC BY 4.0"  ###
-repository_url: "https://github.com/tscnlab/example" ###
-data_access: ###
+repository_url: "https://github.com/tscnlab/civibe_homeostatic"
+data_access: #
   access_level: "open access"
   access_details: >
     Upon conclusion of the primary analyses, the data will be made available under the Creative 
@@ -47,7 +47,7 @@ data_access: ###
     
 ethics:
   approval_required: true
-  approval_id: "2023-369-S-SB"  ###
+  approval_id: "2023-369-S-SB"  #
   approval_body: "Medical Ethics Committee of the Technical University of Munich"
   
 timeline:
