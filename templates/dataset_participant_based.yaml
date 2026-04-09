@@ -320,7 +320,7 @@ measurement_table:
 notes: null
 
 measurement_table:
-  - device_id: "DEV-010"
+  - device_id: "DEV-001.2"
   - table_name: "participant-id_HR"
     file_pattern: "data/processed/*.csv" ###
     description: "Kardio\PR_Kurve table"
@@ -341,7 +341,7 @@ measurement_table:
 notes: only the second device for each participants has a measurement rate of 30s.
 
 measurement_table:
-  - device_id: "DEV-011"
+  - device_id: "DEV-001.2"
   - table_name: "participant-id_RRI"
     file_pattern: "data/processed/*.csv" ###
     description: "Kardio\RR_Abstand"
