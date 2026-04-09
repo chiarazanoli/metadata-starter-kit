@@ -104,38 +104,37 @@ data_capture:
   instruments:
     - name: "AMPBpro"
       monitoring/assessment of: "blood pressure"
-      device_id: "DEV-001.1" ###
-    - name: "3 EGC sensor (Holter)"
-      monitoring/assessment of: "heart rate"
-      device_id: "DEV-001.2" ###
-    - name: "3 EGC sensor (Holter)"
-      monitoring/assessment of: "RR-interval"
-      device_id: "DEV-001.3" ###
+      device_id: "DEV-001.1"
+    - name: "AMPBpro 3 EGC sensor (Holter)"
+      monitoring/assessment of: "heart rate and RR-Interval"
+      device_id: "DEV-001.2" 
     - name: "Auto Non-Contact Tonometer NT-2000"
       monitoring/assessment of: "intra-ocular pressure"
       device_id: "DEV-002"
     - name: "e-Celsius BodyCap ingestible pill"
       monitoring/assessment of: "core body temperature"
-      device_id: "DEV-003" ###
+      device_id: "DEV-003" 
     - name: "FreeStyle Libre 3"
       monitoring/assessment of: "continuous glucose monitoring"
-      device_id: "DEV-004" ###
+      device_id: "DEV-004" 
     - name: "iButton"
       monitoring/assessment of: "peripheral body temperature"
-      device_id: "DEV-005" ###
+      device_id: "DEV-005"
     - name: "Metropsis"
       monitoring/assessment of: "psychophysical visual function assessment"
-      device_id: "DEV-006" ###
+      device_id: "DEV-006" 
     - name: "NVBL"
       monitoring/assessment of: "visual stimulation and pupillometry"
-      device_id: "DEV-007" ###
+      device_id: "DEV-007" 
     - name: "OCT2000"
       monitoring/assessment of: "ocular physiology measurements, incl. corneal thickness and fundus photographs"
-      device_id: "DEV-008" ###
-    - name: "PVT-192"
+      device_id: "DEV-008" 
+    - name: "PVT-192 psychomotor vigilance test"
       monitoring/assessment of: "alertness" 
-      device_id: "DEV-009" ###
-     
+      device_id: "DEV-009" 
+    - name: "ActTrust2 light-weigh actiwatch"
+      monitoring/assessment of: "activity and light exposure" 
+      device_id: "DEV-010" 
 
 notes: >
   null
