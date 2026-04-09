@@ -6,33 +6,27 @@ devices:
     device_type: "blood pressure monitor"
     measurement_modalities:
       - "blood pressure"
-    placement: ###
+    placement: "upper arm"
     calibration:
       calibrated: true
 
   - device_id: "DEV-001.2"
-    device_name: "3 EGC sensor (Holter)"
+    device_name: "AMPBpro 3 EGC sensor (Holter)"
     manufacturer: ""SOMNOmedics, Randersacker, DE""
     model: "AMPBpro"
-    device_type: "EGC electrodes" #
+    device_type: "EGC electrodes" 
     measurement_modalities:
       - "heart rate in bpm unit"
     placement: "chest and ribs"
-    calibration:
-      calibrated: ###
-      certification: ###
 
   - device_id: "DEV-001.3"
-    device_name: "3 EGC sensor (Holter)"
+    device_name: "AMPBpro 3 EGC sensor (Holter)"
     manufacturer: ""SOMNOmedics, Randersacker, DE""
     model: "AMPBpro"
-    device_type: "EGC electrodes" #
+    device_type: "EGC electrodes" 
     measurement_modalities:
-      - "ms of RR-Interval "
+      - "ms of RR-Interval"
     placement: "chest and ribs"
-    calibration:
-      calibrated: ###
-      certification: ###
 
   - device_id: "DEV-002"
     device_name: "Auto Non-Contact Tonometer NT-2000"
@@ -41,7 +35,7 @@ devices:
     device_type: "tonometer"
     measurement_modalities:
       - "intra-ocular pressure"
-    placement: ###
+    placement: "face/eyes"
 
   - device_id: "DEV-003"
     device_name: "e-Celsius"
@@ -95,7 +89,6 @@ devices:
     placement: "dominant eye"
     calibration:
           calibrated: true
-          certification: ###
 
   - device_id: "DEV-008"
     device_name: "OCT2000"
@@ -106,7 +99,7 @@ devices:
       - "corneal thickness"
       - "fundus photography"
       - "ocular physiology"
-    placement: ###
+    placement: "face/eyes"
     calibration:
       calibrated: true
       certification: "CE"
@@ -118,7 +111,18 @@ devices:
     device_type: "psychomotor vigilance test"
     measurement_modalities:
       - "alertness"
+    placement: "hands"
+
+  - device_id: "DEV-010"
+    device_name: "ActTrust2"
+    manufacturer: "Condor Instruments, São Paulo, Brazil"
+    model: "ActTrust2"
+    device_type: "light-weigh actiwatch with a built-in accelerometer and light sensors"
+    measurement_modalities:
+      - "activity and light exposure, in 1-min epochs"
+      - "light exposure, in photopic illuminance and UV irradiance"
     placement: "non-dominant hand"
+ 
 
 documentation_links:
       - "doi.org/10.1371/journal.pone.0300405"
